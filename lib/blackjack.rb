@@ -31,6 +31,8 @@ end
 
 def initial_round
   # code #initial_round here
+  sum = 0 
+  until sum = 12
   deal_card
   deal_card
   puts display_card_total
